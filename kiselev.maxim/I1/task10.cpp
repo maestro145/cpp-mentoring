@@ -1,8 +1,9 @@
 #include <iostream>
 int main()
 {
-    int first, second, third, number;
+    int first;
     std::cin >> first;
+    int second, third, number;
     number = 0;
     while (first != 0)
     {

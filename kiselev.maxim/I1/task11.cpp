@@ -1,16 +1,17 @@
 #include <iostream>
 int main ()
 {
-  int first, second, number;
+  int first, ;
   std::cin>>first;
-   number=-1;
-    while (first!=0)
+  int second, number;
+  number =- 1;
+    while (first != 0)
       {
-        if (first%second==0)
-          {
-            number+=1;
+        if (first % second == 0)
+          { 
+            number += 1;
           }
-        second=first;
+        second = first;
         std::cin>>first;
       }
   std::cout<<number;
