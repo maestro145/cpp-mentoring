@@ -1,23 +1,22 @@
 #include <iostream>
-
 int main()
 {
-    int a, b, c, i;
-    std::cin >> a;
-    i = 0;
-    b = a;
-    c = b;
-    while (a != 0)
+    int first, second, third, number;
+    std::cin >> first;
+    number = 0;
+    second = first;
+    third = second;
+    while (first != 0)
     {
-        if (b < c && a < b)
+        if (second < third && first < second)
         {
-            i += 1;
+            number += 1;
         }
-        c = b;
-        b = a;
-        std::cin >> a;
+        third = second;
+        second = first;
+        std::cin >> first;
     }
-    std::cout << i;
+    std::cout << number;
     return 0;
 }
 

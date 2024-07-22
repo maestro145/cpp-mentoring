@@ -1,20 +1,20 @@
 #include <iostream>
 int main ()
 {
-  int a, b, i;
-  std::cin>>a;
-   b=a;
-   i=-1;
-    while (a!=0)
+  int first, second, number;
+  std::cin>>first;
+   second=first;
+   number=-1;
+    while (first!=0)
       {
-        if (a%b==0)
+        if (first%second==0)
           {
-            i+=1;
+            number+=1;
           }
-        b=a;
-        std::cin>>a;
+        second=first;
+        std::cin>>first;
       }
-  std::cout<<i;
+  std::cout<<number;
   return 0;
 }
 
