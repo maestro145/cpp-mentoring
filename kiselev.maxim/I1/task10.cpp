@@ -1,6 +1,6 @@
-#include <iostream>
-int main()
-{
+ #include <iostream>
+ int main()
+  {
     int first;
     std::cin >> first;
     int second, third, number;
@@ -17,5 +17,5 @@ int main()
     }
     std::cout << number;
     return 0;
-}
+ }
 
