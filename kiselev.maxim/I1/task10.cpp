@@ -4,8 +4,6 @@ int main()
     int first, second, third, number;
     std::cin >> first;
     number = 0;
-    second = first;
-    third = second;
     while (first != 0)
     {
         if (second < third && first < second)

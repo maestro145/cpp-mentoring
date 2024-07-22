@@ -3,7 +3,6 @@ int main ()
 {
   int first, second, number;
   std::cin>>first;
-   second=first;
    number=-1;
     while (first!=0)
       {
