@@ -1,4 +1,5 @@
 #include <iostream>
+
 int main()
 {
     int a, b, c, i;
@@ -19,3 +20,4 @@ int main()
     std::cout << i;
     return 0;
 }
+
