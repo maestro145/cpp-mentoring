@@ -1,20 +1,22 @@
- #include <iostream>
- int main ()
- {
-  int first, ;
-  std::cin>>first;
-  int second, number;
-  number =- 1;
-    while (first != 0)
-      {
-        if (first % second == 0)
-          { 
-            number += 1;
-          }
-        second = first;
-        std::cin>>first;
-      }
-  std::cout<<number;
-  return 0;
- }
+#include <iostream>
+int main()
+{
+int First;
+std::cin >> First;
+int Second, Number;
+Number = -1;
+Second = First;
+  while (First != 0)
+    {
+      if (First % Second == 0)
+        {
+          Number += 1;
+        }
+    Second = First;
+    std::cin >> First;
+    }
+std::cout << Number;
+return 0;
+}
+
 

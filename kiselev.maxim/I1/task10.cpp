@@ -1,21 +1,23 @@
- #include <iostream>
- int main()
-  {
-    int first;
-    std::cin >> first;
-    int second, third, number;
-    number = 0;
-    while (first != 0)
+#include <iostream>
+int main()
+{
+int First;
+std::cin >> First;
+int Second, Third, Number;
+Number = 0;
+Third = Second;
+Second = First;
+  while (First != 0)
     {
-        if (second < third && first < second)
+       if (Second < Third && First < Second)
         {
-            number += 1;
+           Number += 1;
         }
-        third = second;
-        second = first;
-        std::cin >> first;
+      Third = Second;
+      Second = First;
+      std::cin >> First;
     }
-    std::cout << number;
-    return 0;
- }
+std::cout << Number;
+return 0;
+}
 
